@@ -2,7 +2,7 @@
 
 A highly performant, fully responsive single-page developer portfolio. Engineered from the ground up using React and pure CSS to showcase a focus on clean code, custom logic, and modern user interfaces.
 
-🔗 **[View Live Demo](https://yourusername.github.io/my-portfolio)** _(Update this link once deployed)_
+🔗 **[View Live Demo](https://kshitijdatta.vercel.app/)**
 
 ## ✨ Key Features
 

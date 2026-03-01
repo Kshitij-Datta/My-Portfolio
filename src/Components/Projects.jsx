@@ -19,7 +19,7 @@ const PROJECTS = [
       "A fully responsive, single-page developer portfolio. Engineered with custom React hooks for high-performance scroll tracking, pure CSS Grid layouts, and a modern, accessible UI.",
     tags: ["React", "JavaScript", "CSS3"],
     image: myportfolioImg,
-    link: "https://github.com/yourusername/your-repo-name",
+    link: "https://kshitijdatta.vercel.app/",
   },
   {
     id: 3,
