@@ -1,4 +1,4 @@
-import CV from "../assets/Kshitij Datta CV.pdf";
+import CV from "../assets/Kshitij_Datta_CV.pdf";
 
 export const Footer = () => (
   <footer className="footer">
