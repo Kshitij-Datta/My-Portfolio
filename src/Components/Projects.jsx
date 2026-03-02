@@ -62,7 +62,7 @@ const ProjectCard = ({ project }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        View Case Study
+        View Site
       </a>
     </div>
   </div>
