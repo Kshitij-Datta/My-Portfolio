@@ -33,11 +33,16 @@ const PROJECTS = [
 ];
 
 const ProjectCard = ({ project }) => (
-  <div className="project-card">
+  <a
+    href={project.link}
+    className="project-card"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <div className="project-image-wrapper">
       <img
         src={project.image}
-        alt={project.title}
+        alt={`${project.title} project preview`}
         className="project-image"
         referrerPolicy="no-referrer"
       />
@@ -50,22 +55,16 @@ const ProjectCard = ({ project }) => (
           </span>
         ))}
       </div>
+
       <h3 className="project-card-title">
         {project.title}
-        <i className="uil uil-arrow-up-right w-5 h-5"></i>
+        <i className="uil uil-arrow-up-right"></i>
       </h3>
-      <p className="project-description">{project.description}</p>
 
-      <a
-        href={project.link}
-        className="project-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Visit Site
-      </a>
+      <p className="project-description">{project.description}</p>
+      <span className="project-link">Visit Site</span>
     </div>
-  </div>
+  </a>
 );
 
 export const Projects = () => (

@@ -481,6 +481,9 @@ button {
   transition:
     transform 0.5s,
     box-shadow 0.5s;
+  cursor:
+    url("./assets/cursor-pointer.png") 0 0,
+    pointer !important;
 }
 
 .project-card:hover {
@@ -551,6 +554,12 @@ button {
 
 .project-link:hover {
   color: #047857;
+}
+
+.project-card * {
+  cursor:
+    url("./assets/cursor-pointer.png") 0 0,
+    pointer !important;
 }
 
 /* ========================================= */

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CV from "../assets/Kshitij_Datta.pdf";
 
 export const Contact = () => {
   const [copied, setCopied] = useState(false);
@@ -20,7 +21,7 @@ export const Contact = () => {
           the future of tech, I'd love to hear from you.
         </p>
         <div className="contact-actions">
-          <a href="mailto:kshitijdatta14@gmail.com" className="btn-contact">
+          <a href={`mailto:${email}`} className="btn-contact">
             <i className="uit uit-envelope-alt w-5 h-5"></i>
             Get in Touch
           </a>
@@ -54,6 +55,13 @@ export const Contact = () => {
               rel="noreferrer"
             >
               <i className="uit uit-linkedin-alt w-5 h-5"></i>
+            </a>
+            <a
+              download="Kshitij_Datta.pdf"
+              href={CV}
+              className="contact-social-btn"
+            >
+              <i className="uil uil-file-info-alt"></i>
             </a>
           </div>
         </div>

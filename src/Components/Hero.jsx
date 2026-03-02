@@ -1,4 +1,4 @@
-import CV from "../assets/Kshitij_Datta_CV.pdf";
+import CV from "../assets/Kshitij_Datta.pdf";
 
 export const Hero = () => (
   <section id="home" className="hero">
@@ -35,7 +35,7 @@ export const Hero = () => (
           >
             <i className="uil uil-linkedin-alt"></i>
           </a>
-          <a download="Kshitij_Datta_CV.pdf" href={CV} className="social-btn">
+          <a download="Kshitij_Datta.pdf" href={CV} className="social-btn">
             <i className="uil uil-file-info-alt"></i>
           </a>
         </div>
