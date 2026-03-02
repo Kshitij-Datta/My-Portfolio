@@ -651,6 +651,50 @@ button {
   background-color: #3f3f46;
 }
 
+.btn-copy {
+  background-color: #10b981;
+  color: #18181b;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 0.8rem;
+  background-color: #10b981;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.copy-text {
+  max-width: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-copy:hover {
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #34d399;
+  color: #121212;
+}
+
+.btn-copy:hover .copy-text {
+  max-width: 150px;
+  opacity: 1;
+  cursor:
+    url("./assets/cursor-pointer.png") 0 0,
+    pointer;
+}
+
+.btn-copy.copied {
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+}
+
 /* ========================================= */
 /* 9. FOOTER SECTION                         */
 /* ========================================= */
