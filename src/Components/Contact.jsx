@@ -57,8 +57,9 @@ export const Contact = () => {
               <i className="uit uit-linkedin-alt w-5 h-5"></i>
             </a>
             <a
-              download="Kshitij_Datta.pdf"
               href={CV}
+              target="_blank"
+              rel="noreferrer"
               className="contact-social-btn"
             >
               <i className="uil uil-file-info-alt"></i>

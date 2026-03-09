@@ -35,7 +35,7 @@ export const Hero = () => (
           >
             <i className="uil uil-linkedin-alt"></i>
           </a>
-          <a download="Kshitij_Datta.pdf" href={CV} className="social-btn">
+          <a href={CV} target="_blank" rel="noreferrer" className="social-btn">
             <i className="uil uil-file-info-alt"></i>
           </a>
         </div>
