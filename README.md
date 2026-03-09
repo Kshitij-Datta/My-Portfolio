@@ -2,7 +2,7 @@
 
 A highly performant, fully responsive single-page developer portfolio. Engineered from the ground up using React and pure CSS to showcase a focus on clean code, custom logic, and modern user interfaces.
 
-🔗 **[View Live Demo](https://kshitijdatta.vercel.app/)**
+🔗 **[Visit Site](https://kshitijdatta.vercel.app/)**
 
 ## ✨ Key Features
 
@@ -16,10 +16,10 @@ A highly performant, fully responsive single-page developer portfolio. Engineere
 - **Core:** React 18, JavaScript (ES6+), HTML5
 - **Styling:** CSS3 (Custom Properties, Grid, Flexbox, Animations)
 - **Icons:** Unicons
-- **Deployment:** Vercel / GitHub Pages _(adjust based on your choice)_
+- **Deployment:** Vercel
 
 ## 📂 Featured Projects Included
 
-- **Mr. Web Chef:** A responsive full-stack culinary application utilizing Node.js, Express, and integrated generative AI models for custom recipe generation.
+- **[Mr. Web Chef](https://github.com/Kshitij-Datta/Mr-Web-Chef):** A responsive full-stack culinary application utilizing Node.js, Express, and integrated generative AI models for custom recipe generation.
 - **My Portfolio:** The current project
 - **Dino-Wiki Concept:** A semantic HTML5 and CSS3 static encyclopedia project serving as a foundation for structured web layouts. (Currently under development through ReactJS and API's)

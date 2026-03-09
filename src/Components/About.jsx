@@ -36,8 +36,7 @@ export const About = () => (
           <p>
             I'm a developer who believes that software should not only work
             perfectly but also feel intuitive and beautiful. With over 5 years
-            of experience in the industry, I've worked with startups and
-            established companies to bring complex ideas to life.
+            of experience in the industry, I bring complex ideas to life.
           </p>
           <p>
             My expertise spans across the stack, from crafting responsive

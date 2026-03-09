@@ -4,14 +4,22 @@ export const ScrollProgressBar = () => {
   const [scrollProgress, setProgress] = useState(0);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      const totalScroll = document.documentElement.scrollTop;
-      const windowHeight =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-      const scrollPercentage = (totalScroll / windowHeight) * 100;
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const totalScroll = document.documentElement.scrollTop;
+          const windowHeight =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+          const scrollPercentage = (totalScroll / windowHeight) * 100;
 
-      setProgress(scrollPercentage);
+          setProgress(scrollPercentage);
+          ticking = false;
+        });
+
+        ticking = true;
+      }
     };
 
     // { passive: true } keeps the scrolling smooth - important

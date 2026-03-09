@@ -3,7 +3,7 @@ import CV from "../assets/Kshitij_Datta.pdf";
 
 export const Contact = () => {
   const [copied, setCopied] = useState(false);
-  const email = "kshitijdatta14@gmail.com";
+  const email = "kshitijdatta.dev@gmail.com";
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
     setCopied(true);
