@@ -28,7 +28,7 @@ export const Hero = () => (
             <i className="uil uil-github-alt"></i>
           </a>
           <a
-            href="www.linkedin.com/in/kshitij-datta-sde"
+            href="https://www.linkedin.com/in/kshitij-datta-sde"
             className="social-btn"
             target="_blank"
             rel="noreferrer"
