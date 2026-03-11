@@ -22,4 +22,4 @@ A highly performant, fully responsive single-page developer portfolio. Engineere
 
 - **[Mr. Web Chef](https://github.com/Kshitij-Datta/Mr-Web-Chef):** A responsive full-stack culinary application utilizing Node.js, Express, and integrated generative AI models for custom recipe generation.
 - **My Portfolio:** The current project
-- **Dino-Wiki Concept:** A semantic HTML5 and CSS3 static encyclopedia project serving as a foundation for structured web layouts. (Currently under development through ReactJS and API's)
+- **[DinoNaur](https://dinonaur.vercel.app/):** A semantic HTML5 and CSS3 static encyclopedia project serving as a foundation for structured web layouts. (Currently under development through ReactJS and API's)

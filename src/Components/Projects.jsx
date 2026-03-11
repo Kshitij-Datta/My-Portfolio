@@ -23,12 +23,12 @@ const PROJECTS = [
   },
   {
     id: 3,
-    title: "Dino-Wiki Concept",
+    title: "DinoNaur",
     description:
-      "A comprehensive static encyclopedia project exploring paleontological data. This project served as an early deep-dive into semantic HTML and structured layouts, currently slated for a full React/TypeScript reconstruction.",
-    tags: ["HTML5", "CSS3", "Legacy Project"],
+      "A high-performance React Application that indexes over 2,500 dinosaur genera. Engineered with DOM virtualization and PBDB API integration to dynamically render live scientific data and interactive fossil maps without lag.",
+    tags: ["React", "REST APIs", "React-Virtuoso", "Leaflet.js"],
     image: dinowebImg,
-    link: "https://kshitij-datta.github.io/Dinosaurs",
+    link: "https://dinonaur.vercel.app/",
   },
 ];
 
