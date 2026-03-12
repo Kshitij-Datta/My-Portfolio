@@ -7,6 +7,7 @@ import {
   Contact,
   Footer,
 } from "./Components/imports";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
+      <Analytics />
     </>
   );
 }
