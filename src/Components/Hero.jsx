@@ -10,9 +10,9 @@ export const Hero = () => (
         that scale.
       </h1>
       <p className="hero-description">
-        Hi, I'm Kshitij Datta, a Front-End Engineer who specializes in crafting
-        dynamic, responsive web applications using modern tools like React to
-        bring complex logic to life.
+        Hi, I'm Kshitij Datta, a Full-Stack Engineer (MERN) who specializes in
+        crafting dynamic, responsive web applications using modern tools like
+        React and Express to bring complex logic to life.
       </p>
       <div className="hero-actions">
         <a href="#projects" className="btn-primary">
