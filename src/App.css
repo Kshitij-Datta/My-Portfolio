@@ -106,18 +106,23 @@ button {
   background-color: #4f4f53;
   transition: 0.3s;
 }
-
 .btn-text {
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #a1a1aa;
-  transition: color 0.2s;
+  color: #404049;
+
+  text-decoration: underline transparent;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+
+  transition: all 0.2s ease;
 }
 
 .btn-text:hover {
   color: var(--text-color);
+  text-decoration-color: var(--text-color);
 }
 
 .uil {

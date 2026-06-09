@@ -1,25 +1,18 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import {
-  Navbar,
-  Hero,
-  Projects,
-  About,
-  Contact,
-  Footer,
-} from "./Components/imports";
+import Home from "./Components/Home";
+import ProjectsPage from "./Components/ProjectsPage";
+
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <>
-      <div className="selection-emerald">
-        <Navbar />
-        <Hero />
-        <Projects />
-        <About />
-        <Contact />
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+      </Routes>
+
       <Analytics />
     </>
   );
