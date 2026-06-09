@@ -4,17 +4,44 @@ const skillCategories = [
   {
     id: 1,
     title: "Programming Languages",
-    skills: ["JavaScript", "Python", "C++", "Kotlin", "SQL"],
+    skills: ["Java", "JavaScript", "Python", "C++", "Kotlin", "SQL"],
   },
   {
     id: 2,
-    title: "Web Technologies",
-    skills: ["HTML", "CSS", "ReactJs", "Node.js", "Redux"],
+    title: "Frontend",
+    skills: [
+      "React",
+      "Redux",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Responsive Design",
+    ],
   },
   {
     id: 3,
-    title: "Tools & Databases",
-    skills: ["Git", "MongoDB", "MySQL", "Bootstrap"],
+    title: "Backend & Databases",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MySQL",
+      "REST APIs",
+      "JWT Authentication",
+    ],
+  },
+  {
+    id: 4,
+    title: "Tools & Technologies",
+    skills: [
+      "Git",
+      "GitHub",
+      "Vercel",
+      "Render",
+      "React-Virtuoso",
+      "Leaflet.js",
+      "AI Integration",
+    ],
   },
 ];
 
